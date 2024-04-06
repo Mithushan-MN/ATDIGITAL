@@ -1,0 +1,143 @@
+
+.faq{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accordian{
+    padding-top: 30px;
+}
+.faq h1 {
+    text-align: left;
+    color: #6B3CC9;
+}
+
+.item{
+    /* border: 1px solid; */
+    margin-bottom: 10px;
+    padding: px 20px;
+    
+    width: 800px;
+    background: #FAF8FF;
+}
+.item .show{
+
+    margin-bottom: 10px;
+    padding: px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.title-selected {
+    color: #6B3CC9; /* Change to your desired color */
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+
+    
+}
+.answer.show{
+    height: auto;
+    max-height: 9999px;
+    
+}
+
+@media screen and (max-width: 769px) {
+    .item{
+        margin-bottom: 10px;
+        padding: px 20px;
+        width: 800px;
+        background: #FAF8FF;
+        width: 700px;
+        margin: 0 4rem;
+    }
+    .item .show{
+    
+        margin-bottom: 10px;
+        padding: px 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+      
+    }
+    
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 5px 10px;
+        
+    }
+    .title-selected {
+        color: #6B3CC9; /* Change to your desired color */
+      
+    }
+    .answer{
+        max-height: 0;
+        overflow: hidden;
+    
+        
+    }
+    .answer.show{
+        height: auto;
+        max-height: 9999px;
+        
+    }
+}
+@media screen and (max-width: 425px) {
+    .item{
+        margin-bottom: 10px;
+        padding: px 20px;
+        width: 800px;
+        background: #FAF8FF;
+        width: 320px;
+        margin: 0 4rem;
+    }
+    .item .show{
+    
+        margin-bottom: 10px;
+        padding: px 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+      
+    }
+    .faq h1 {
+        text-align: center;
+        font-size: 35px;
+        width: 20rem;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .title-selected {
+        color: #6B3CC9; /* Change to your desired color */
+      
+    }
+    .answer{
+        max-height: 0;
+        overflow: hidden;        
+    }
+    .accordian{
+        width: 300px !important;
+    }
+    .answer.show{
+        height: auto;
+        max-height: 9999px;
+        
+    }
+}

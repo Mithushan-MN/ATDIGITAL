@@ -1,0 +1,93 @@
+.footer{
+    background-color: #6B3CC9;
+    padding: 50px 100px 10px 100px;
+    color: #fff;
+    margin-top: 50px;
+    width: auto;
+}
+.fmain{
+    display: flex;
+    justify-content: space-between;
+}
+.fleft p{
+    font-size: 20px;
+    width: 500px;
+}
+.fright{
+    display: flex;
+    gap: 15rem;
+}
+.frightone{
+    display: flex;
+    flex-direction: column;
+}
+.frightone span{
+    padding: 5px 0 ;
+}
+.frighttwo{
+    display: flex;
+    flex-direction: column;
+}
+.frighttwo span{
+    padding: 5px 0 ;
+    width: 200px;
+}
+.fbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    margin-top: 50px;
+    width: 900px;
+}
+.bottomlinks{
+    display: flex;
+    gap: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    .fmain{
+        justify-content: space-around;
+        gap: 10rem;
+    }
+    .fright{
+        display: flex;
+        gap: 5rem;
+    }
+    .fright h3{
+        font-size: 17px;
+    }
+    .fleft p{
+        font-size: 14px;
+        width: 300px;
+    }
+    hr{
+        margin-top: 50px;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .fmain{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .footer {
+        padding: 50px 40px 10px 40px;
+        margin-top: 50px;
+
+    }
+    
+    hr{
+        margin-top: 50px;
+        width: 300px;
+    }
+    .fright {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

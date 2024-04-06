@@ -1,0 +1,117 @@
+.section2{
+    display: flex;
+    gap: 20rem;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionimg2{
+    mix-blend-mode: multiply;
+}
+.sectiontxt2{
+    width: 40rem;
+}
+.sectiontxt2 h2{
+    color: #6B3CC9;
+    font-weight: bold;
+    font-size: 35px;
+}
+.sectiontxt2 p{
+    font-size: 20px;
+}
+.sectiontxt2 button{
+    font-size: 15px;
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #F28D35;
+    color: #fff;
+}
+
+@media(max-width:1201px) {
+    .section2{
+        display: flex;
+        gap: 3rem;
+        padding: 5rem 5rem 0 5rem;
+   
+    }
+    
+    .sectiontxt2 h2{
+        color: #6B3CC9;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .sectiontxt2 p{
+        font-size: 15px;
+    }
+    .sectiontxt2 button{
+        font-size: 13px;
+        width: 8rem;
+        height: 2rem;
+    }
+}
+@media(max-width:769px) {
+    .section2{
+        display: flex;
+        gap: 12px;
+        padding: 2rem 1rem 0 0;
+   
+    }
+    .sectiontxt2{
+        width: 30rem;
+        margin-left: 5rem;
+    }
+    .sectiontxt2 h2{
+        color: #6B3CC9;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .sectiontxt2 p{
+        font-size: 12px;
+    }
+    .sectiontxt2 button{
+        font-size: 11px;
+        width: 8rem;
+        height: 1.6rem;
+    }
+    .sectionimg{
+       margin-top: -50px;
+    }
+}
+@media(max-width:425px) {
+    .section2{
+        flex-direction: column;
+        gap: 1px;
+        padding: 2rem 1rem 0 0;
+   
+    }
+    .sectiontxt2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 20rem;
+        margin-left: 0;
+    }
+    .sectiontxt2 h2{
+        color: #6B3CC9;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .sectiontxt2 p{
+        font-size: 12px;
+    }
+    .sectiontxt2 button{
+        font-size: 11px;
+        width: 8rem;
+        height: 1.6rem;
+    }
+    .sectiontxt2 {
+        order: 1;
+    }
+    .sectionimg2 img{
+        mix-blend-mode: multiply;
+        width: 300px;
+    }
+}

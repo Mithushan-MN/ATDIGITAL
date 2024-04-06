@@ -1,0 +1,104 @@
+.hero{
+    height: 90vh;
+    width: auto;
+    background-image:url(../Assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+}
+.hero-box{
+    background: linear-gradient(to right, #4DCA79,#1CBDDD);
+    width: 650px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
+    margin-left: 50px;
+    padding: 20px;
+    color: #fff;
+}
+.hero-box h1{
+    font-size: 45px;
+    font-weight: 500px;
+    padding: 0 30px;
+}
+.hero-box button{
+    width: 20rem;
+    height: 3rem;
+    font-size: 20px;
+    background: #F28D35;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media(max-width:1201px){
+    .hero-box{
+       
+        width: 450px;
+        height: 230px;
+        margin-top: -300px;
+        padding: 0;
+    }
+    .hero-box h1{
+        font-size: 33px;
+        padding: 0 10px;
+    }
+    .hero-box button{
+        width: 14rem;
+        height: 3rem;
+        font-size: 17px;
+        margin-left: 10px;
+    }
+}
+@media(max-width:769px){
+    .hero{
+        height: 90vh;
+        background-image:url(../Assets/background.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .hero-box{
+       
+        width: 100%;
+        height: 230px;
+        margin-top: 0px;
+        margin-left: 0;
+    }
+    .hero-box h1{
+        font-size: 40px;
+        padding: 0 30px;
+    }
+    .hero-box button{
+        width: 14rem;
+        height: 3rem;
+        font-size: 17px;
+        margin-left: 30px;
+    }
+}
+@media(max-width:425px){
+    .hero{
+        height: 30vh;
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-top: 30px;
+    }
+    .hero-box{
+       
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 0;
+    }
+    .hero-box h1{
+        font-size: 30px;
+        padding: 0 20px;
+    }
+    .hero-box button{
+        width: 13rem;
+        height: 2.5rem;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+}
